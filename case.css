@@ -1,0 +1,247 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Navigation */
+  
+  nav {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Sections */
+  
+  section {
+    padding: 40px;
+  }
+  
+  .home {
+    background-image: linear-gradient(to bottom, #333, #444);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .intro {
+    background-color: #f7f7f7;
+  }
+  
+  .services {
+    background-color: #fff;
+  }
+  
+  .call-me {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .project {
+    background-color: #f7f7f7;
+  }
+  
+  .about {
+    background-color: #fff;
+  }
+  
+  .contact {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Home Section */
+  
+  .home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .home button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .home button:hover {
+    background-color: #23527c;
+  }
+  
+  /* Intro Section */
+  
+  .intro.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .intro.text {
+    width: 50%;
+  }
+  
+  .intro.image {
+    width: 50%;
+  }
+  
+  .intro h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .intro.italic {
+    font-style: italic;
+  }
+  
+  /* Services Section */
+  
+  .services.services-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .services.service-item {
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services.service-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .services.service-item h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .services.service-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .services.service-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .services.service-item li {
+    margin-bottom: 10px;
+  }
+  
+  .services.service-item button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .services.service-item button:hover {
+    background-color: #23527c;
+  }
+  
+  /* Call Me Section */
+  
+  .call-me.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .call-me.form {
+    width: 50%;
+  }
+  
+  .call-me input[type="text"],.call-me input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .call-me textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .call-me button[type="submit"] {
+    background-color: #337ab7
