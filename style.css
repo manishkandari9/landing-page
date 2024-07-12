@@ -449,6 +449,99 @@ color: var(--dark-gray-color);
   section .form button[type="submit"]:hover {
     background-color: #3e8e41;
   }
+  /* footer part  */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+  }
+  
+  .footer-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-item {
+    margin: 20px;
+    width: 20%;
+    min-width: 150px;
+  }
+  
+  .footer-item h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-item p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .footer-item a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-item a:hover {
+    color: #ccc;
+  }
+  
+  .footer-item .gov {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .footer-list-container > div:nth-child(1) {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .footer-list-container > div:nth-child(2) {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .footer-list-container > div:nth-child(3) {
+    background-color: #666;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .footer-list-container > div:nth-child(4) {
+    background-color: #777;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  span {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .footer-item {
+      width: 40%;
+      min-width: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-item {
+      width: 100%;
+      min-width: 100px;
+    }
+  }
 
 
     
