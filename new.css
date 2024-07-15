@@ -60,7 +60,7 @@ button:hover {
 }
 
 .home {
-    background-image: url(himalya.jpg);
+    background-image: url(/images/himalya.jpg);
     min-height: 90vh;
     background-size: cover;
     background-position: center;
@@ -307,23 +307,38 @@ nav ul {
 }
 
 .services .preposition.content {
-    width: 50%;
-    flex-shrink: 0;
+  padding: 5rem 5rem 5rem 20vw;
+}
+.services .preposition h3{
+  line-height: 1.75rem;
+  color: var(--light-gray-color);
+}
+.services .testmonial{
+  padding: 5rem 20vw;
+}
+,.services .testmonial p{
+  color: var(--light-gray-color);
+  text-align: center;
+}
+.services .testmonial-list-container{
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  overflow-x: scroll;
+  padding: 3rem 0;
+}
+.services .testmonial-item{
+  width: 25%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
-.services .preposition:nth-of-type(1).content {
-    padding: 3rem 20vw 3rem 3rem;
-    box-sizing: border-box;
-}
 
-.services .preposition:nth-of-type(2).content {
-    padding: 3rem 3rem 3rem 20vw;
-}
-
-.services .preposition:nth-of-type(3).content {
-    padding: 3rem 20vw 3rem 3rem;   
-}
-  /* Section Styles */
+  /* Section Styles 
   
   section {
     background-color: #fff;
@@ -367,7 +382,7 @@ nav ul {
     color: #666;
     margin-right: 10px;
   }
-  /* Form Styles */
+  /* Form Styles 
   
   section .form {
     padding: 20px;
@@ -412,7 +427,7 @@ nav ul {
   section .form button[type="submit"]:hover {
     background-color: #3e8e41;
   }
-  /* footer part  */
+  /* footer part  
   footer {
     background-color: #333;
     color: #fff;
@@ -491,7 +506,7 @@ nav ul {
     display: block;
   }
   
-  /* Responsive design */
+  /* Responsive design *
   @media (max-width: 768px) {
     .footer-item {
       width: 40%;
@@ -505,7 +520,7 @@ nav ul {
       min-width: 100px;
     }
   }
-  /* Global Styles */
+  /* Global Styles *
 
 * {
   box-sizing: border-box;
@@ -520,7 +535,7 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Project Section */
+/* Project Section *
 
 .project {
   padding: 40px;
@@ -584,7 +599,7 @@ body {
   border-radius: 10px;
 }
 
-/* Team Section */
+/* Team Section *
 
 .team {
   background-color: #f7f7f7;
@@ -630,7 +645,7 @@ body {
 .social-links span:hover {
   color: #4CAF50;
   background-color: #113448;
-}
+/* } */
 
 
     
