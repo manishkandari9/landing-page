@@ -8,7 +8,10 @@
     --white-color: #ffffff;
     --disabled-color: #e9ecef;
     --dark-white-color: #dfe5ec;
-    --light-grey-border-color: #e9ecefh;
+    --light-grey-border-color: #EBE8E8;
+    --form-input-background-color: #2A5077;
+    --form-input-border-color: #39728f;
+
 
     --image-contrast: 60%;
     --image-grayscale: 25%;
@@ -316,7 +319,7 @@ nav ul {
 .services .testmonial{
   padding: 5rem 20vw;
 }
-,.services .testmonial p{
+.services .testmonial p{
   color: var(--light-gray-color);
   text-align: center;
 }
@@ -335,6 +338,65 @@ nav ul {
   align-items: center;
   flex-shrink: 0;
   flex-grow: 0;
+}
+.services .testmonial-item img{
+  width: 6rem;
+  border-radius: 50%;
+}
+.services .testmonial-item p{
+  line-height: 1.5rem;
+  color: var(--light-gray-color);
+}
+.services .testmonial-item h4{
+  color: var(--dark-grey-color)
+}
+.call_me{
+  padding: 5rem 20vw;
+  background-color: var(--green-background-color);
+  display: flex;
+  flex-direction: row;
+}
+.call_me .content, .call_me  .form{
+  width: 45%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  color: var(--white-color);
+}
+.call_me .content h3{
+  font-size: 1.75em;
+}
+.call_me .content p{
+  line-height: 1.5rem;
+  color: var(--light-grey-border-color);
+}
+.call_me .content ul{
+  padding: 0;
+  list-style-type: none;
+}
+.call_me .content ul li::before{
+  content: '\25a0';
+  color: var(--light-green-color);
+  margin-right: 5px;
+  font-size: 1.25rem;
+}
+.call_me form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.content, .form{
+  
+  justify-content: space-evenly;
+}
+.call_me form .terms_container label{
+  color: var(--light-grey-border-color);
+}
+.call_me form input, .call_me select{
+  background-color: var(--form-input-background-color);
+  color: var(--white-color);
+  border: 3px solid var(--form-input-border-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
 }
 
 
