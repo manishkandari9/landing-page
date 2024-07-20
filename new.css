@@ -2,7 +2,7 @@
     --background-color: #fbfbfb;
     --green-background-color: #153e52;
     --dark-green-color: #113448;
-    --light-green-color: #14bf98;
+    --light-green-color: #14bf9d;
     --dark-grey-color: #484a46;
     --light-gray-color: #787976;
     --white-color: #ffffff;
@@ -392,11 +392,29 @@ nav ul {
   color: var(--light-grey-border-color);
 }
 .call_me form input, .call_me select{
-  background-color: var(--form-input-background-color);
-  color: var(--white-color);
+  background-color: var(--white-color);
+  color: var(--light-green-color);
   border: 3px solid var(--form-input-border-color);
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
+}
+.project{
+  padding: 5rem 0;
+}
+.project >span{
+  display: block;
+  text-align: center;
+}
+.project h3{
+  font-size: 1.75rem;
+  color: var(--dark-grey-color);
+  text-align: center;
+}
+.project .category-list-container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }
 
 
