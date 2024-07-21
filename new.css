@@ -416,6 +416,14 @@ nav ul {
   justify-content: space-around;
 
 }
+.project-list-container .project-list-item{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 5;
+  width: 100px;
+  height: 60px;
+}
+
 
 
   /* Section Styles 
