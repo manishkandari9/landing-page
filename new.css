@@ -2,7 +2,7 @@
     --background-color: #fbfbfb;
     --green-background-color: #153e52;
     --dark-green-color: #113448;
-    --light-green-color: #14bf9d;
+    --light-green-color: #fdbe00;
     --dark-grey-color: #484a46;
     --light-gray-color: #787976;
     --white-color: #ffffff;
@@ -11,13 +11,7 @@
     --light-grey-border-color: #EBE8E8;
     --form-input-background-color: #2A5077;
     --form-input-border-color: #39728f;
-
-
-    --image-contrast: 60%;
-    --image-grayscale: 25%;
-}
-
-body {
+   body {
     margin: 0px;
     padding: 0px;
     background-color: var(--white-color);
@@ -64,7 +58,7 @@ button:hover {
 
 .home {
     background-image: url(/images/himalya.jpg);
-    min-height: 90vh;
+    min-height: 60vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -75,21 +69,23 @@ button:hover {
     color: var(--white-color);
     gap: 1.5rem;
 }
-
 .home h1 {
-    text-transform: uppercase;
-    font-size: 4rem;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .home p {
+  text-transform: capitalize;
     font-size: 1.5rem;
-    width: 50%;
+    font-weight: 300;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 60px;
     position: fixed;
     justify-content: space-between;
     top: 0;
@@ -354,7 +350,7 @@ nav ul {
   padding: 5rem 20vw;
   background-color: var(--green-background-color);
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
 }
 .call_me .content, .call_me  .form{
   width: 45%;
