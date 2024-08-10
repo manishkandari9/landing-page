@@ -17,12 +17,11 @@
     background-color: var(--white-color);
 }
 
-h1, h2, h3, h4, h5, h6, p, span, button, li, input, textarea, label, select, option {
+body{
     font-family: 'open sans', sans-serif;
     margin: 0;
     padding: 0;
 }
-
 button {
     cursor: pointer;
     border: 1px solid var(--light-green-color);
@@ -124,7 +123,7 @@ nav ul {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-}
+} */
 
 .intro {
     padding: 3rem 10px;
@@ -729,7 +728,7 @@ body {
 .social-links span:hover {
   color: #4CAF50;
   background-color: #113448;
-/* } */
+/* } 
 
 
     
