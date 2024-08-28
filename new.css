@@ -418,10 +418,7 @@ nav ul {
   width: 100px;
   height: 60px;
 }
-
-
-
-  /* Section Styles 
+ Section Styles 
   
   section {
     background-color: #fff;
@@ -465,7 +462,7 @@ nav ul {
     color: #666;
     margin-right: 10px;
   }
-  /* Form Styles 
+   Form Styles 
   
   section .form {
     padding: 20px;
@@ -510,7 +507,7 @@ nav ul {
   section .form button[type="submit"]:hover {
     background-color: #3e8e41;
   }
-  /* footer part  
+   footer part  
   footer {
     background-color: #333;
     color: #fff;
@@ -588,8 +585,6 @@ nav ul {
     margin-top: 20px;
     display: block;
   }
-  
-  /* Responsive design *
   @media (max-width: 768px) {
     .footer-item {
       width: 40%;
@@ -603,7 +598,7 @@ nav ul {
       min-width: 100px;
     }
   }
-  /* Global Styles *
+   Global Styles *
 
 * {
   box-sizing: border-box;
@@ -618,7 +613,7 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Project Section *
+ Project Section *
 
 .project {
   padding: 40px;
@@ -682,7 +677,7 @@ body {
   border-radius: 10px;
 }
 
-/* Team Section *
+Team Section *
 
 .team {
   background-color: #f7f7f7;
@@ -728,19 +723,5 @@ body {
 .social-links span:hover {
   color: #4CAF50;
   background-color: #113448;
-/* } 
-
-
-    
-
-
-        
-    
-
-
-
-
-
-
-
-
+ }
+}
