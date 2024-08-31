@@ -333,6 +333,7 @@ nav ul {
   align-items: center;
   flex-shrink: 0;
   flex-grow: 0;
+  background-color: red;
 }
 .services .testmonial-item img{
   width: 6rem;
@@ -565,12 +566,14 @@ nav ul {
     background-color: #555;
     padding: 10px;
     border-radius: 10px;
+    color: #4CAF50;
   }
   
   .footer-list-container > div:nth-child(3) {
     background-color: #666;
     padding: 10px;
     border-radius: 10px;
+    color: #113448;
   }
   
   .footer-list-container > div:nth-child(4) {
