@@ -79,6 +79,7 @@ button:hover {
   text-transform: capitalize;
     font-size: 1.5rem;
     font-weight: 300;
+    text-transform: capitalize;
 }
 
 nav {
@@ -95,6 +96,7 @@ nav {
     align-items: center;
     color: var(--light-green-color);
     z-index: 100;
+    background-color: red;
 }
 
 nav a {
